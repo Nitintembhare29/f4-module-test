@@ -25,11 +25,11 @@ const Detail = () => {
     <div className="d_page">
       <nav className="Navbar">Social Media App</nav>
       <div className="detail-container">
-     <span> Details Page For Post With ID </span><span style={{ color: 'pink' }}> {post.userId} </span>
+     <span> Details Page For Post With ID </span><span style={{ color: 'pink' }}> {post.id} </span>
      <p> <img src={`https://picsum.photos/200?random=${post.id}`} alt="Post" /></p>
        
         <h5>
-          User Id: {post.userId}
+          User Id: {post.id}
         </h5>
         <p>
         Title: <span>{post.title}</span> 
