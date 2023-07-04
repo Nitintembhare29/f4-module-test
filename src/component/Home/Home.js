@@ -34,7 +34,7 @@ const Home = () => {
             Title:{' '}
               {post.title.slice(0, 17)}...
           </h5>
-           <span style={{  color:'black' }}>Body:</span> <span>{post.body.slice(0, 50)}...</span>
+           Body:{' '} {post.body.slice(0, 50)}...
            <p>
           <Link to={`/item/${post.id}`} 
          
