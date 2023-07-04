@@ -32,9 +32,7 @@ const Home = () => {
           <h5>User Id: {post.id} </h5>
           <h5>
             Title:{' '}
-            <Link to={`/item/${post.id}`} className="post-link">
               {post.title.slice(0, 17)}...
-            </Link>
           </h5>
            <span style={{  color:'black' }}>Body:</span> <span>{post.body.slice(0, 50)}...</span>
            <p>
